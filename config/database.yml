@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+
+
+development:
+  <<: *default
+  database: db/development.sqlite3
+
+test:
+  <<: *default
+  database: db/test.sqlite3
+
+production:
+  <<: *default
+  database: da192q8f5hn06i
+  username: xgclgltxorioee
+  host: ec2-34-200-205-45.compute-1.amazonaws.com
+  password: 5d275403aa6596d9edf71629439495a9c8f30050aaf63d501f94e87edc4802cf
