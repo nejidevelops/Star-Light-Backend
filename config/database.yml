@@ -16,3 +16,4 @@ production:
   username: vuwwxmjbzrlvec
   host: ec2-52-207-90-231.compute-1.amazonaws.com
   password: bf5c6bd434a521bfc24b5807568a72e2a0ac9cbf2c448f56fcbb0f147b1ba9ca
+  
